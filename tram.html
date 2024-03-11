@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Online Doctor Consultancy</title>
+	<link rel="stylesheet" href="style.css">
+	  </head>
+<body>
+	<header>
+	
+          <h1><center>Online Doctor Consultancy</center> </h1>
+
+            
+            <div class="appointment-box">
+                <h2>Make an appointment</h2>
+                <form action="insert1.jsp" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <label for="consultation-type">Consultation Type:</label>
+                <select id="consultation-type" name="consultation-type">
+                  <option value="general-checkup">General Checkup</option>
+                  <option value="specialist-consultation">Specialist Consultation</option>
+                  <option value="follow-up">Follow-up Appointment</option>
+                </select>
+                <p>Date: <input type="date" name="date"></p>
+                <p>Time: <input type="time" name="time"></p>
+                <p><button type="submit">Submit</button></p></form>
+            </div>
+                
+                
+                
+	<div class="nav-container">
+                        <ul>
+              <li><a href="tram.html">Home</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="aboutus.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="view.jsp">view records</a></li>
+            </ul>
+          </div>
+	</header>
+	
+	<main>
+		<section id="banner">
+			<h2 >Consult with a Doctor from the Comfort of Your Home</h2>
+			<p>Our online doctor consultancy service connects you with licensed medical professionals who can diagnose and treat a wide range of medical conditions. No need to leave your house or wait in a crowded waiting room. Get the care you need on your schedule.</p>
+			<a href="tra1.html" class="btn">Get Started</a>
+		</section>
+		
+				<section id="about">
+			<h2>About Us</h2>
+			<p>We are a team of licensed medical professionals who believe in making healthcare more accessible and convenient for everyone. Our online doctor consultancy service allows patients to get the care they need from the comfort of their own home.</p>
+			<a href="#" class="btn">Learn More</a>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Online Doctor Consultancy</p>
+	</footer>
+</body>
+</html>

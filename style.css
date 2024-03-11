@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* Styling for the header */
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0;
+  text-align: center;
+  color: #333;
+}
+
+.nav-container {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #ee1515;
+}
+
+/* Styling for the main content */
+#banner {
+  background-image: url('banner.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#banner h2 {
+  font-size: 42px;
+  margin: 0;
+  color: #fff;
+}
+
+#banner p {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #ee1515;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #ee1515;
+  border: 1px solid #ee1515;
+}
+
+#about {
+  background-color: #f2f2f2;
+  padding: 50px;
+}
+
+#about h2 {
+  font-size: 32px;
+  margin-top: 0;
+  color: #333;
+}
+
+#about p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/* Styling for the appointment box */
+.appointment-box {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.appointment-box h2 {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+/* Styling for the background box */
+.box {
+  background-image: url('os1.jfif');
+  background-size: cover;
+  background-position: center center;
+  background-color: #ee1515;
+  border: 1px solid #ddd;
+  padding: 10px;
+  position: relative;
+  height: 200px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+}
+
+.text {
+  position: absolute;
+  top: 50;}

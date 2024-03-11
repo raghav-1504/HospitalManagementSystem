@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Small Appointment Box</title>
+	<style>
+		.appointment-box {
+			background-color: #f2f2f2;
+			border: 1px solid #ccc;
+			padding: 10px;
+			border-radius: 5px;
+			width: 200px;
+		}
+
+		.appointment-box h3 {
+			margin: 0 0 10px;
+			font-size: 1.2em;
+		}
+
+		.appointment-box p {
+			margin: 0;
+			font-size: 0.9em;
+		}
+	</style>
+</head>
+<body>
+	<div class="appointment-box">
+		<h3>Make an Appointment</h3>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="consultation-type">Consultation Type:</label>
+        <select id="consultation-type" name="consultation-type">
+          <option value="general-checkup">General Checkup</option>
+          <option value="specialist-consultation">Specialist Consultation</option>
+          <option value="follow-up">Follow-up Appointment</option>
+        </select>
+		<p>Date: <input type="date" name="date"></p>
+		<p>Time: <input type="time" name="time"></p>
+		<p><button type="submit">Submit</button></p>
+	</div>
+</body>
+</html>
